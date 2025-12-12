@@ -24,9 +24,10 @@ Includes an optional **test-period verification** (sometimes labelled “backtes
 pip install -r requirements.txt
 ```
 
-### 2) Test-period verification
+2) Test-period verification
 ```bash
-Follow directions in script - script should default to test-period verification
+python src/ftse100_forecast_l36.py --end 2024-12-09 --days 252 --sims 20000 --seed 42 --actual-price 9642.01
+python src/ftse100_forecast_l60_tradeoff.py --end 2024-12-09 --days 252 --sims 20000 --seed 42 --actual-price 9642.01
 ```
 ### 3) Forecast mode
 ```bash
