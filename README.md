@@ -14,7 +14,9 @@ Includes an optional **test-period verification** (sometimes labelled “backtes
 ## Repo structure
 - `src/ftse100_forecast_l36.py`
 - `src/ftse100_forecast_l60_tradeoff.py`
-- `results/`
+- `results/RESULTS.md`
+- `results/RESULTS.md`
+- `results/RESULTS.md`
 
 ## How to run
 
