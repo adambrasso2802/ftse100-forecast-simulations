@@ -41,9 +41,8 @@ Runs the simulation without comparing to a realised FTSE 100 level (no error met
 ```bash
 # Set --end to today's date (YYYY-MM-DD)
 
-# If your script defaults to verification via an actual price,
-# switch to forecast mode by setting the script's ACTUAL_FTSE_PRICE to None
-# (or change --actual-price default to None), then run:
+# If the script defaults to verification via an actual price,
+# switch to forecast mode by setting the script's --actual-price default to None, then run:
 
-python src/ftse100_forecast_l36.py --end 2025-12-12 --days 252 --sims 20000 --seed 42
-python src/ftse100_forecast_l60_tradeoff.py --end 2025-12-12 --days 252 --sims 25200 --seed 42
+python src/ftse100_forecast_l36.py --end YYYY-MM-DD --days 252 --sims 20000 --seed 42
+python src/ftse100_forecast_l60_tradeoff.py --end YYYY-MM-DD --days 252 --sims 25200 --seed 42
