@@ -15,8 +15,8 @@ Includes an optional **test-period verification** (sometimes labelled “backtes
 - `src/ftse100_forecast_l36.py`
 - `src/ftse100_forecast_l60_tradeoff.py`
 - `results/RESULTS.md`
-- `results/RESULTS.md`
-- `results/RESULTS.md`
+- `results/level36_forecast`
+- `results/level60_ensemble`
 
 ## How to run
 
