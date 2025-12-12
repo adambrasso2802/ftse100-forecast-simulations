@@ -25,6 +25,7 @@ pip install -r requirements.txt
 ```
 
 ### 2) Test-period verification
+Uses historical data up to `--end` as the training cutoff, simulates `--days` forward, then compares the **median forecast** to `--actual-price` and prints the percent error.
 ```bash
 python src/ftse100_forecast_l36.py --end 2024-12-09 --days 252 --sims 20000 --seed 42 --actual-price 9642.01
 python src/ftse100_forecast_l60_tradeoff.py --end 2024-12-09 --days 252 --sims 20000 --seed 42 --actual-price 9642.01
