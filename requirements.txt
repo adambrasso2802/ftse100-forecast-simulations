@@ -1,9 +1,5 @@
-numpy
-
-pandas
-
-yfinance
-
-matplotlib
-
-scikit-learn
+-numpy
+-pandas
+-yfinance
+-matplotlib
+-scikit-learn
