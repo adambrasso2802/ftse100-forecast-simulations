@@ -29,12 +29,7 @@ pip install -r requirements.txt
 python src/ftse100_forecast_l36.py --end 2024-12-09 --days 252 --sims 20000 --seed 42 --actual-price 9642.01
 python src/ftse100_forecast_l60_tradeoff.py --end 2024-12-09 --days 252 --sims 20000 --seed 42 --actual-price 9642.01
 ```
-3) Forecast mode
-```bash
-python src/ftse100_forecast_l36.py --end 2025-12-12 --days 252 --sims 20000 --seed 42
-python src/ftse100_forecast_l60_tradeoff.py --end 2025-12-12 --days 252 --sims 25200 --seed 42
-replace end date with current day when forecasting
-```
+
 3) Forecast mode (no verification)
 Runs the simulation without comparing to a realised FTSE 100 level (no error metric printed).
 
