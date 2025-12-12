@@ -29,7 +29,8 @@ pip install -r requirements.txt
 python src/ftse100_forecast_l36.py --end 2024-12-09 --days 252 --sims 20000 --seed 42 --actual-price 9642.01
 python src/ftse100_forecast_l60_tradeoff.py --end 2024-12-09 --days 252 --sims 20000 --seed 42 --actual-price 9642.01
 ```
-### 3) Forecast mode
+3) Forecast mode
 ```bash
-Follow directions in script - to simulate a live forecast
+python src/ftse100_forecast_l36.py --end 2025-12-12 --days 252 --sims 20000 --seed 42
+python src/ftse100_forecast_l60_tradeoff.py --end 2025-12-12 --days 252 --sims 25200 --seed 42
 ```
