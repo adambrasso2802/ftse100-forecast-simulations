@@ -37,5 +37,5 @@ To run forecast mode (no error printed), set `--actual-price` default to `None` 
 ```bash
 # Set --end to today's date (YYYY-MM-DD)
 
-python src/ftse100_forecast_l36.py --end YYYY-MM-DD --days 252 --sims 20000 --seed 42
+python src/ftse100_forecast_l36.py --end YYYY-MM-DD --days 252 --sims 20000
 python src/ftse100_forecast_l60_tradeoff.py --end YYYY-MM-DD --days 252 --sims 25200 --seed 42
