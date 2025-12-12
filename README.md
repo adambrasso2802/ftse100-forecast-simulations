@@ -25,3 +25,10 @@ pip install -r requirements.txt
 ```
 
 ### 2) Test-period verification
+```bash
+Follow directions in script - script should default to test-period verification
+```
+### 3) Forecast mode
+```bash
+Follow directions in script - to simulate a live forecast
+```
