@@ -30,8 +30,9 @@ python src/ftse100_forecast_l36.py --end 2024-12-09 --days 252 --sims 20000 --se
 python src/ftse100_forecast_l60_tradeoff.py --end 2024-12-09 --days 252 --sims 20000 --seed 42 --actual-price 9642.01
 ```
 
-3) Forecast mode (no verification)
-Runs the simulation without comparing to a realised FTSE 100 level (no error metric printed).
+3) Forecast mode
+These scripts default to test-period verification because `--actual-price` has a numeric default.
+To run forecast mode (no error printed), set `--actual-price` default to `None` in the script (or add a `--forecast` flag), then run:
 
 ```bash
 # Set --end to today's date (YYYY-MM-DD)
