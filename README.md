@@ -24,13 +24,13 @@ Includes an optional **test-period verification** (sometimes labelled “backtes
 pip install -r requirements.txt
 ```
 
-2) Test-period verification
+### 2) Test-period verification
 ```bash
 python src/ftse100_forecast_l36.py --end 2024-12-09 --days 252 --sims 20000 --seed 42 --actual-price 9642.01
 python src/ftse100_forecast_l60_tradeoff.py --end 2024-12-09 --days 252 --sims 20000 --seed 42 --actual-price 9642.01
 ```
 
-3) Forecast mode
+### 3) Forecast mode
 These scripts default to test-period verification because `--actual-price` has a numeric default.
 To run forecast mode (no error printed), set `--actual-price` default to `None` in the script (or add a `--forecast` flag), then run:
 
