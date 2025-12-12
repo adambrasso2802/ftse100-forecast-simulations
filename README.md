@@ -33,4 +33,5 @@ python src/ftse100_forecast_l60_tradeoff.py --end 2024-12-09 --days 252 --sims 2
 ```bash
 python src/ftse100_forecast_l36.py --end 2025-12-12 --days 252 --sims 20000 --seed 42
 python src/ftse100_forecast_l60_tradeoff.py --end 2025-12-12 --days 252 --sims 25200 --seed 42
+replace end date with current day when forecasting
 ```
