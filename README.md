@@ -22,3 +22,5 @@ Includes an optional **test-period verification** (sometimes labelled “backtes
 
 ```bash
 pip install -r requirements.txt
+
+### 2) Test-period verification
