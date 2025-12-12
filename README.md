@@ -32,7 +32,7 @@ python src/ftse100_forecast_l60_tradeoff.py --end 2024-12-09 --days 252 --sims 2
 
 ### 3) Forecast mode
 These scripts default to test-period verification because `--actual-price` has a numeric default.
-To run forecast mode (no error printed), set `--actual-price` default to `None` in the script (or add a `--forecast` flag), then run:
+To run forecast mode (no error printed), set `--actual-price` default to `None` in the script, then run:
 
 ```bash
 # Set --end to today's date (YYYY-MM-DD)
