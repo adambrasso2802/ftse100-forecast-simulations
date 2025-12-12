@@ -35,3 +35,15 @@ python src/ftse100_forecast_l36.py --end 2025-12-12 --days 252 --sims 20000 --se
 python src/ftse100_forecast_l60_tradeoff.py --end 2025-12-12 --days 252 --sims 25200 --seed 42
 replace end date with current day when forecasting
 ```
+3) Forecast mode (no verification)
+Runs the simulation without comparing to a realised FTSE 100 level (no error metric printed).
+
+```bash
+# Set --end to today's date (YYYY-MM-DD)
+
+# If your script defaults to verification via an actual price,
+# switch to forecast mode by setting the script's ACTUAL_FTSE_PRICE to None
+# (or change --actual-price default to None), then run:
+
+python src/ftse100_forecast_l36.py --end 2025-12-12 --days 252 --sims 20000 --seed 42
+python src/ftse100_forecast_l60_tradeoff.py --end 2025-12-12 --days 252 --sims 25200 --seed 42
