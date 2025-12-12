@@ -16,6 +16,9 @@ Includes an optional **test-period verification** (sometimes labelled “backtes
 - `src/ftse100_forecast_l60_tradeoff.py`
 - `results/`
 
-## Setup
+## How to run
+
+### 1) Install dependencies
+
 ```bash
 pip install -r requirements.txt
