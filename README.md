@@ -17,6 +17,7 @@ Includes an optional **test-period verification** (sometimes labelled “backtes
 - `results/RESULTS.md`
 - `results/level36_forecast`
 - `results/level60_ensemble`
+- `requirements.txt`
 
 ## How to run
 
