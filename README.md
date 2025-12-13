@@ -12,12 +12,12 @@ Includes an optional **test-period verification** (sometimes labelled “backtes
 - **L60**: higher-complexity variant used to illustrate a complexity / generalisation trade-off.
 
 ## Repo structure
+- `requirements.txt`
 - `src/ftse100_forecast_l36.py`
 - `src/ftse100_forecast_l60_tradeoff.py`
 - `results/RESULTS.md`
-- `results/level36_forecast`
-- `results/level60_ensemble`
-- `requirements.txt`
+- `results/level36_forecast.png`
+- `results/level60_ensemble.png`
 
 ## How to run
 
